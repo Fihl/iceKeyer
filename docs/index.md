@@ -31,5 +31,3 @@ See the box folder on GitHub
 
 ## The code
 The code will come later, when more menues and adjustments are done 
-
-## <font face="Monotype Corsiva">Christen Fihl, Denmark  OZ1AAB</font>
