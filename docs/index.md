@@ -20,7 +20,7 @@
 - SSD1306 display
 - Load cell weight element with [electronics HX711](https://www.aliexpress.com/item/1005005990833147.html) 
   - HX711 changed for 80 samplings/second
-- Alternative, for a old style key, one can be made out of a single [body weight element](https://www.aliexpress.com/item/1005003760719720.html), when getting a new scale in the bathroom.
+- Alternative, for an old style key, one can be made out of a single [body weight element](https://www.aliexpress.com/item/1005003760719720.html), when getting a new scale in the bathroom.
 
 ![iceKeyer](picts/iceKeyer1.jpeg "iceKeyer boxing")
 
