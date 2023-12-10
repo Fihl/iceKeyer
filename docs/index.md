@@ -1,7 +1,5 @@
 # iceKeyer, the no fuss keyer
 
----
-
 ## Features
 - No moving elements
 - Need pressure are automatically calculated, by reading how the usage is
