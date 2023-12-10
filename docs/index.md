@@ -18,7 +18,7 @@
 ## The electronics
 - ESP32 (Like [LOLIN S2 mini](https://www.aliexpress.com/item/1005004912486444.html))
 - SSD1306 display
-- Load cell weight element with [electronics HX711](https://www.aliexpress.com/item/1005005990833147.html) 
+- Load cell weight element with [amplifier HX711](https://www.aliexpress.com/item/1005005990833147.html) 
   - HX711 changed for 80 samplings/second
 - Alternative, for an old style key, one can be made out of a single [body weight element](https://www.aliexpress.com/item/1005003760719720.html), when getting a new scale in the bathroom.
 
@@ -29,10 +29,7 @@
 ## Box laser cutting
 I do export dxf files right out of OpenSCAD. 
 And the text is exported in svg file 
-
-### Do see the boxing examples
-- [Include file](https://github.com/Fihl/LaserCutter2D/blob/main/Src/LaserCutter2D.scad)
-- [iceKeyer, a CW keyer](https://github.com/Fihl/LaserCutter2D/tree/main/Src/iceKeyer/)
+See the box folder on GitHub
 
 ## The code
 The code will come later, when more menues and adjustments are done 
