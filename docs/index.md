@@ -1,7 +1,8 @@
 # iceKeyer, the no fuss keyer
+# single-paddle model
 
 ## Features
-- No moving elements
+- No moving parts
 - Need pressure are automatically calculated, by reading how the usage is
 - No adjustment
 - No more bad contacts, no wetting problems
@@ -17,12 +18,11 @@
 - ESP32 (Like [LOLIN S2 mini](https://www.aliexpress.com/item/1005004912486444.html))
 - SSD1306 display
 - Load cell weight element with [amplifier HX711](https://www.aliexpress.com/item/1005005990833147.html) 
-  - HX711 changed for 80 samplings/second
-- Alternative, for an old style key, one can be made out of a single [body weight element](https://www.aliexpress.com/item/1005003760719720.html), when getting a new scale in the bathroom.
+  - HX711 has to be changed for 80 samplings/second
 
-![iceKeyer](picts/iceKeyer1.jpeg "iceKeyer boxing")
+![iceKeyer](picts/Paddle/iceKeyer1.jpeg "iceKeyer boxing")
 
-![iceKeyer](picts/iceKeyer2.jpeg "iceKeyer menu example")
+![iceKeyer](picts/Paddle/iceKeyer2.jpeg "iceKeyer menu example")
 
 ## Box laser cutting
 I do export dxf files right out of OpenSCAD. 
