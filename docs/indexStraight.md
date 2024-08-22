@@ -1,5 +1,4 @@
-# iceKeyer, the no fuss keyer
-# Straight model
+# iceKeyer, the no fuss keyer. Straight model
 
 ## Features
 - No moving parts

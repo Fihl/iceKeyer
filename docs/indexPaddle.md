@@ -1,5 +1,4 @@
-# iceKeyer, the no fuss keyer
-# single-paddle model
+# iceKeyer, the no fuss keyer. Single-paddle model
 
 ## Features
 - No moving parts
