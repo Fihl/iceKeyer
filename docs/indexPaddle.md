@@ -26,7 +26,8 @@
 ## Box laser cutting
 I do export dxf files right out of OpenSCAD. 
 And the text is exported in svg file 
-See the box folder on GitHub
+See the box folder on GitHub  
+[iceKeyer github](https://github.com/Fihl/iceKeyer)  
 
 ## The code
 The code will come later, when more menues and adjustments are done 
