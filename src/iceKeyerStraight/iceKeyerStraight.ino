@@ -4,7 +4,6 @@
 // Using Nano (RF)
 
 // Using Load-Cell module
-// 
 // HX711 pcb has to configured to 80 samples a second. Do move a jumper from position 10 to 80.
 
 #define Logo "iceKeyerStraight OZ1AAB"
@@ -31,6 +30,9 @@ byte cwSpeed=12;
 
 void setup() {
   Serial.begin(115200);
+  delay(1000);
+  tone(PIN_tone, HzTone);
+  
   CoroutineScheduler::setup();
 }
 
@@ -45,7 +47,7 @@ void loop() {
 }
 
 bool lastKeyIsDah;
-byte UIpauseVal=200;
+int UIpauseVal=200;
 COROUTINE(UI) {
   COROUTINE_BEGIN();
   static bool lastkeyDown;
@@ -72,7 +74,7 @@ COROUTINE(UI) {
     SP(10+keyDown*4);
     SP(20+green);
     SP(40+max(cw.level6dbA,cw.level6dbB));  //dbTreshold
-    SP(40+min(50,glbInp));
+    SP(40+min((byte)50,glbInp));
     // SP(inpRaw)
     SPln();
   }

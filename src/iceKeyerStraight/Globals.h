@@ -37,16 +37,8 @@ int WPM2ms(int wpm)
 }
 void doSnd(bool on)
 {
-  #ifdef HzTone
-    tone(PIN_tone, HzTone);
-    if (on) pinMode(PIN_tone_att1, OUTPUT); else pinMode(PIN_tone_att1, INPUT);
-    digitalWrite(PIN_tone_att1,0);
-    
-//    pinMode(PIN_tone_gnd, OUTPUT);
-//    digitalWrite(PIN_tone_gnd,0);
-//    if (on) tone(PIN_tone, HzTone);
-//    else    noTone(PIN_tone);
-  #endif
+  if (on) pinMode(PIN_tone_att1, OUTPUT); else pinMode(PIN_tone_att1, INPUT);
+  digitalWrite(PIN_tone_att1,0);
 }
 
 typedef struct {
