@@ -40,8 +40,8 @@ COROUTINE(LoopKeyer) {
       case '7': { interSPACE=1;      len = dihTime*L7; break; }
       case '.': {                    len = dihTime;    break; }
     } 
-    cntDIHs += len;
-    if (false)  //debug-print
+    cntDIHs += len; //Unused
+    if (true)  //debug-print
       switch (tx) {
         case '1': { Serial.print("- ");   break; }
         case '2': { Serial.print("--- "); break; }
@@ -64,8 +64,8 @@ COROUTINE(LoopKeyer) {
         charDecoder[0] = 0;
       Serial.print(ch);
         if (!InitialCh) {
-          if (ch == 'K') { InitialCh=ch; HX711Swapped=!HX711Swapped; }
-          if (ch == 'R') InitialCh=ch; 
+          if (ch == 'K') { InitialCh=ch; HX711Swapped =! HX711Swapped; }
+          if (ch == 'R') { InitialCh=ch; }
           if (InitialCh) crt_printS("\f"Logo"\nReady\n");
         } 
         else {

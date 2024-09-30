@@ -5,7 +5,7 @@ int M_Volume=3;
 int M_HzTone=700;
 int M_FarnsworthChar=1; //0..3
 int M_FarnsworthWord=3; //0..7
-int M_wpm=15;
+int M_wpm=12;
 
 unsigned long M_shortDelayA = 150L; 
 
@@ -16,14 +16,13 @@ char testMsg3[100] = "V CQ test CQ test de " CALL " " CALL " de " CALL " " CALL;
 
 byte dihTime; // 12 wpm => 100;
 
-unsigned long shortDelayB = 180L;   // Ikke lavet endnu
-unsigned long spaceDelayB = 250L;   // Ikke lavet endnu
+unsigned long shortDelayB = 180L;   // TBD
+unsigned long spaceDelayB = 250L;   // TBD
 
 bool LoopCWComfortA_Active =1;
 bool LoopCWComfortB_Active =0;
 
 #define WPMmax 30
-
 #define MINPADDLE 30
 
 #define SP(i)    { Serial.print(i); Serial.print(" "); }
